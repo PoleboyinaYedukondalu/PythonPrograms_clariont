@@ -1,0 +1,9 @@
+Student name :Nani, 
+Student Id :555, 
+Student Class :Clariont, 
+M1 Marks :90, 
+Subject2 Marks :97, 
+Subject3 Marks :95, 
+Total :282, 
+Persentage :94.0, 
+Student Grade :A+ 
