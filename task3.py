@@ -17,9 +17,11 @@ def main():
             output_file.write(file_contents)
 
         print(f"Contents copied from '{input_file_name}' to '{output_file_name}' successfully.")
-
     except FileNotFoundError:
         print("Error: One or both of the files not found.")
+        with open(output_file_name, 'w+') as output_file:
+            # Write the contents to the output file
+            output_file.write(file_contents)
     except Exception as e:
         print(f"An error occurred: {e}")
 
